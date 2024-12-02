@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girei.Grid.DataCollector.Da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D32F11BD-AE8F-4DF4-BBAE-C7D4B68373B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanBus", "Utilities\ScanBus\ScanBus.csproj", "{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScanBus", "Utilities\ScanBus\ScanBus.csproj", "{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AC74417-DD3E-4D5D-8BC8-F66D8B95F44B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
