@@ -1,7 +1,7 @@
 # Proof of Concept for GIREI Web Application Architecture
 ## _Overview_
 
-This project serves as a proof of concept for the architecture designed for the final master's project titled “Diseño de la arquitectura de una aplicación web para el almacenamiento y publicación de parámetros eléctricos del GIREI.” The goal of the project is to capture and store electrical data provided by the Venus GX device into an InfluxDB database.
+This project serves as a proof of concept for [the architecture designed](https://github.com/ups-girei/energy-management-system/blob/main/architecture.dsl) for the final master's project titled “Diseño de la arquitectura de una aplicación web para el almacenamiento y publicación de parámetros eléctricos del GIREI.” The goal of the project is to capture and store electrical data provided by the Venus GX device into an InfluxDB database.
 The proof of concept focuses on the development of two core components:
 
 - **Data Collector Service**: Collects data from the Venus GX.
