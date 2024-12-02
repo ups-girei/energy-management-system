@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girei.Grid.DataCollector.DataProducer", "DataCollector\DataProducer\Girei.Grid.DataCollector.DataProducer.csproj", "{C349E990-8945-4ED1-A115-277EED437A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataCollector", "DataCollector", "{E37A5F8E-7A64-4FC6-BCC8-A8DA72E46CDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStorage", "DataStorage", "{31679E20-EBF2-4326-ADDA-368C6629315C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girei.Grid.DataStorage.DataConsumer", "DataStorage\DataConsumer\Girei.Grid.DataStorage.DataConsumer.csproj", "{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girei.Grid.DataCollector.DataSourceConnector", "DataCollector\DataSourceConnector\Girei.Grid.DataCollector.DataSourceConnector.csproj", "{8F9BB9B6-E01A-4D52-A112-BE423F8AF044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D32F11BD-AE8F-4DF4-BBAE-C7D4B68373B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanBus", "Utilities\ScanBus\ScanBus.csproj", "{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C349E990-8945-4ED1-A115-277EED437A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C349E990-8945-4ED1-A115-277EED437A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C349E990-8945-4ED1-A115-277EED437A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C349E990-8945-4ED1-A115-277EED437A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9BB9B6-E01A-4D52-A112-BE423F8AF044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9BB9B6-E01A-4D52-A112-BE423F8AF044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9BB9B6-E01A-4D52-A112-BE423F8AF044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9BB9B6-E01A-4D52-A112-BE423F8AF044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C349E990-8945-4ED1-A115-277EED437A32} = {E37A5F8E-7A64-4FC6-BCC8-A8DA72E46CDD}
+		{8F0D9C88-4E16-43BD-9BBC-083C2F1A38E6} = {31679E20-EBF2-4326-ADDA-368C6629315C}
+		{8F9BB9B6-E01A-4D52-A112-BE423F8AF044} = {E37A5F8E-7A64-4FC6-BCC8-A8DA72E46CDD}
+		{50A1D1CF-90DA-45C4-BE58-0A8FE3ADFFED} = {D32F11BD-AE8F-4DF4-BBAE-C7D4B68373B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF8FC3F4-8A2B-4EDF-8536-2AC76B001225}
+	EndGlobalSection
+EndGlobal
